@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+             import React, { Component } from "react";
 import { Navigate } from "react-router-dom";
 import Data from "../Data";
 import "../App.css";
@@ -13,7 +13,7 @@ class Login extends Component {
       isUserLogin: false,
       isAdminLogin: false,
     };
-    this.handleChange = this.handleChange.bind(this);
+               this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
@@ -69,7 +69,8 @@ class Login extends Component {
 
     return (
       <>
-        <h2>Logggin</h2>
+             
+         <h3>Logggin</h3>
         <form onSubmit={this.handleSubmit}>
           <div>
             <input
