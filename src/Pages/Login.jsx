@@ -69,7 +69,7 @@ class Login extends Component {
 
     return (
       <>
-        <h2>Login</h2>
+        <h2>Logggin</h2>
         <form onSubmit={this.handleSubmit}>
           <div>
             <input
